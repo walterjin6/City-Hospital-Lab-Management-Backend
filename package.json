@@ -6,7 +6,8 @@
   "scripts": {
     "client": "cd ../client &&  npm run start",
     "server": "SET PORT=7998 && nodemon server",
-    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "start": "node server",
+    "start1": "concurrently \"npm run server\" \"npm run client\"",
     "dev": "nodemon server"
   },
   "keywords": [],
